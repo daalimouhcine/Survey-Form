@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="Survey-form.css">
+</head>
+<body>
+    <header>
+        <h1 id="title">Put your information</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+    </header>
+    <fieldset>
+        <legend>
+            Survey-Form
+        </legend>
+            <form action="" id="survey-form">
+                <div class="first">
+                    <label id="name-label" for="name">- Name</label>
+                        <input type='text' id="name" name='name' placeholder='Enter your name'>
+                    
+                    <label id="email-label" for="email">- E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    
+                    <label id="number-label" for="number">- Age <span> (optional)</span></label>
+                        <input type="number" id="number" name="number" min="13" max="20" placeholder="Enter your age">
+                    
+                    <p>- Gender</p>
+                    <select id="dropdown">
+                        <option selected disabled value="Select an option">Select your gender</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                </div>
+            <div class="radio">
+                <p>- What's your favorit browser?</p>
+                <label for="opera">
+                    <input id="opera" type="radio" name="browser" value="opera">Opera
+                </label>
+                <label for="google-chrome">
+                    <input id="google-chrome" type="radio" name="browser" value="google chrome">Google chrome
+                </label>
+                <label for="safari">
+                    <input id="safari" type="radio" name="browser" value="safari">Safari
+                </label>
+                <label for="fire-fox">
+                    <input id="fire-fox" type="radio" name="browser" value="fire fox">Fire fox
+                </label>
+            </div>
+            <div class="check">
+                <p>- What's yout favorit programing language?</p>
+                <label for="JavaScript">
+                    <input id="JavaScript" type="checkbox" name="JavaScript" value="JavaScript">JavaScript
+                </label>
+                <label for="C">
+                    <input id="C" type="checkbox" name="C" value="C">C
+                </label>
+                <label for="C++">
+                    <input id="C++" type="checkbox" name="C++" value="C++">C++
+                </label>
+                <label for="Python">
+                    <input id="Python" type="checkbox" name="Python" value="Python">Python
+                </label>
+                <label for="Java">
+                    <input id="Java" type="checkbox" name="Java" value="Java">Java
+                </label>
+                <label for="Other">
+                    <input id="Other" type="checkbox" name="Other" value="Other">Other
+                </label>
+            </div>
+            <div class="text">
+                <p>- Any comments or suggestions?</p>
+                <textarea placeholder="Enter your comment her..." rows="7"></textarea>
+            </div>
+            <div class="submit">
+                <input type="submit" value="submit">
+            </div>
+        </form>
+    </fieldset>
+</body>
+</html>
