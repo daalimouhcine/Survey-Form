@@ -96,7 +96,7 @@ fieldset form .first label span {
 
 .radio p {
     padding:0.5vh 0;
-    margin-top:4vh;
+    margin-top: 4vh;
     font-size: 1.45rem;
     margin-bottom:3px;
 }
@@ -113,7 +113,7 @@ fieldset form .first label span {
 }
 
 .check {
-    display:flex;
+    display: flex;
     flex-direction: column;
     font-size: 1.1rem;
     line-height: 170%;
@@ -196,11 +196,11 @@ fieldset form .first label span {
     }
 
     fieldset {
-        width:95%;
+        width: 95.5%;
     }
 
     fieldset legend {
-        padding:4% 7%;
+        padding: 4% 7%;
         margin-left: 7%;
         font-size: 1.3rem;
     }
